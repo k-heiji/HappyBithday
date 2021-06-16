@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>誕生日カウントダウンタイマー</title>
+  <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+  <div class="container">
+    <div class="countdown">
+      <h1 class="countdown-title"><span id="titles">Happy Birthday</span> </h1>
+     <h2 class="new-year"><span id="year">何かが起こります！</span>         </h2>       
+
+      <div class="time-container">
+
+        <p class="time"><span id="days" class="time-num"></span></p>
+        <p class="time"><span id="hours" class="time-num" ></span>hours</p>
+        <p class="time"><span id="minutes" class="time-num"></span>minutes</p>
+        <p class="time"><span id="seconds" class="time-num"></span>seconds</p>
+        <span id="happys" class="time-num"></span></p>  
+      </div>
+      <div class="video-container">
+          <div class="video-wrap">
+          <video id="videos" controls autobuffer autoplay playinline>
+            <source src="LINE_MOVIE_1586058485011.mp4">
+          </video>
+          </div>      
+      </div>
+    </div>
+        
+      
+  </div>
+
+  <script src="countdown.js"></script>
+</body>
+</html>
