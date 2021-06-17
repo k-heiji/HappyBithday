@@ -125,7 +125,7 @@
 	transform: translate(-50%,-50%);
 }
 /* 小さいデバイス用に文字サイズ & margin調整 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .countdown-title {
     font-size: 50px;
   }
