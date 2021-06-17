@@ -60,11 +60,13 @@ if (currentTime < birthdayTime){
    year.remove();    
    videos.style.display ="block";
     //再生    
-    videos.play();
     //一時停止
     //videos.pause();
     //ロード
     //videos.load();
+}   
+ if (days.remove())  {
+         videos.play();
 }   
  
 //function countdown(){
