@@ -15,7 +15,7 @@ const titles = document.getElementById('titles');
 //const differ=tomorrow.getTime()-now.getTime();//明日まであと何ミリ秒か
 
 // 来年の1月1日00:00:00のDateオブジェクトを取得
-const birthdayTime = new Date(`2021/06/18 00:35:00`);
+const birthdayTime = new Date(`2021/06/18 00:55:00`);
 
 // 来年の値をDOMに追加
 // year.innerText = birthdayTime;
@@ -48,7 +48,7 @@ if (currentTime < birthdayTime){
   minutes.innerText = m < 10 ? '0' + m : m;
   seconds.innerText = s < 10 ? '0' + s : s;
   videos.style.display ="none";
-  days.style.display ="none";    
+  //days.style.display ="none"; //   
     
 } else if (birthdayTime <= currentTime){
     hours.style.display ="none";
