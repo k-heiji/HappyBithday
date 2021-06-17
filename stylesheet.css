@@ -8,6 +8,9 @@
   margin: 0;
 }
 
+.body {
+	-webkit-text-size-adjust:100%;
+}
 /* 全体を囲うコンテナー＆背景 */
 .container {
   position: relative;
