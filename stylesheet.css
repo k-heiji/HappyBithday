@@ -100,7 +100,7 @@
 	height: 100vh;  
 }
 
-/.video-wrap {
+.video-wrap {
     overflow: hidden;
 	position: absolute;
 	top: 0;
