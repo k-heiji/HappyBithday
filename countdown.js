@@ -15,7 +15,7 @@ const titles = document.getElementById('titles');
 //const differ=tomorrow.getTime()-now.getTime();//明日まであと何ミリ秒か
 
 // 来年の1月1日00:00:00のDateオブジェクトを取得
-const birthdayTime = new Date(`2021/06/21 00:00:00`);
+const birthdayTime = new Date(`2021/06/19 02:24:00`);
 
 // 来年の値をDOMに追加
 // year.innerText = birthdayTime;
