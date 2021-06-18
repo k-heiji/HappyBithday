@@ -14,10 +14,10 @@
 /* 全体を囲うコンテナー＆背景 */
 .container {
   position: relative;
-  background-image: url('kanata-8r_wuRw0fuI-unsplash.jpg');
+  background-image: url('8F3E23DE-50C7-477D-866E-92B223B891A7.jpg');
   background-repeat: no-repeat;
-  /*background-size: cover;
-  background-position: center center;*/
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -146,7 +146,9 @@
   .time-num {
     font-size: 34px;
   }
-    .video-wrap{
-           width: 400px; 
+   video {
+           width: 100%;
+	   max-width: 400px; 
     }   
+	
 }
