@@ -15,7 +15,7 @@ const titles = document.getElementById('titles');
 //const differ=tomorrow.getTime()-now.getTime();//明日まであと何ミリ秒か
 
 // 来年の1月1日00:00:00のDateオブジェクトを取得
-const birthdayTime = new Date(`2021/06/21 00:00:00`);
+const birthdayTime = new Date(`2022/06/21 00:00:00`);
 
 // 来年の値をDOMに追加
 // year.innerText = birthdayTime;
@@ -32,7 +32,7 @@ function updateCountdown() {
 
   document.getElementById("videos").style.display ="none";
     
-if (currentTime < birthdayTime){
+//if (currentTime < birthdayTime){
       // 現在から新年までの日数を計算
   const d = Math.floor(diff / 1000 / 60 / 60 / 24);
   // 時間を計算
@@ -50,24 +50,24 @@ if (currentTime < birthdayTime){
   videos.style.display ="none";
   //days.style.display ="none"; //   
     
-} else if (birthdayTime <= currentTime){
-    hours.style.display ="none";
-    days.remove();
-   hours.remove();
-   minutes.remove();
- 　seconds.remove();
-   titles.remove(); 
-   year.remove();    
-   videos.style.display ="block";
+//} else if (birthdayTime <= currentTime){
+   // hours.style.display ="none";
+    //days.remove();
+   //hours.remove();
+   //minutes.remove();
+ 　//seconds.remove();
+   //titles.remove(); 
+   //year.remove();    
+   //videos.style.display ="block";
     //再生    
     //一時停止
     //videos.pause();
     //ロード
     //videos.load();
-}   
- if (days.remove())  {
-         videos.play();
-}   
+//}   
+ //if (days.remove())  {
+   //      videos.play();
+//}   
  
 //function countdown(){
 //const now=new Date();//今の時間
@@ -76,20 +76,20 @@ if (currentTime < birthdayTime){
     
     
   // 現在から新年までの日数を計算
-  const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+  //const d = Math.floor(diff / 1000 / 60 / 60 / 24);
   // 時間を計算
-  const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+  //const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   // 分を計算
-  const m = Math.floor(diff / 1000 / 60) % 60;
+  /const m = Math.floor(diff / 1000 / 60) % 60;
   // 秒を計算
-  const s = Math.floor(diff / 1000) % 60;
+  //const s = Math.floor(diff / 1000) % 60;
 
 
   // 取得した時間をDOMに追加
-  days.innerText = d;
-  hours.innerText = h < 10 ? '0' + h : h;
-  minutes.innerText = m < 10 ? '0' + m : m;
-  seconds.innerText = s < 10 ? '0' + s : s;
+  //days.innerText = d;
+  //hours.innerText = h < 10 ? '0' + h : h;
+  //minutes.innerText = m < 10 ? '0' + m : m;
+  //seconds.innerText = s < 10 ? '0' + s : s;
 
 
 }
