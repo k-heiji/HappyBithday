@@ -80,7 +80,7 @@ function updateCountdown() {
   // 時間を計算
   //const h = Math.floor(diff / 1000 / 60 / 60) % 24;
   // 分を計算
-  /const m = Math.floor(diff / 1000 / 60) % 60;
+  //const m = Math.floor(diff / 1000 / 60) % 60;
   // 秒を計算
   //const s = Math.floor(diff / 1000) % 60;
 
